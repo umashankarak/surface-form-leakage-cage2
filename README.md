@@ -27,7 +27,7 @@ Requires Python 3.9 or newer.
 ```bash
 git clone <REPO-URL>
 cd surface-form-leakage-cage2
-pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
 ```
 
 ### CybORG dependency
