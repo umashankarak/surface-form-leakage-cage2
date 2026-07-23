@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Third-party benchmark -- installed separately, not vendored (see README)
+cage-challenge-2/
+
+# Local run artifacts. The episodes backing the paper are committed under
+# data/ instead; runs/ is scratch space for new experiments.
+runs/
+*.log
+
+# Generated figure outputs (the scripts in figures/ regenerate these)
+figures/*.png
+figures/*.pdf
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

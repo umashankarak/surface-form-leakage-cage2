@@ -1,0 +1,12 @@
+# CybORG (CAGE-2) is installed separately from source -- see README.
+#
+# Python 3.9+
+
+networkx>=3.0        # directed-graph isomorphism and path-profile checks
+scipy>=1.11          # Welch's t-test, confidence intervals
+numpy>=1.24
+pyyaml>=6.0          # scenario parsing
+matplotlib>=3.7      # figure generation
+
+# Optional: only needed to run the LLM case study
+ollama>=0.3.0        # local model inference
